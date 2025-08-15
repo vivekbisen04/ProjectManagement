@@ -1,0 +1,86 @@
+# Project-specific files
+*.md.backup
+
+# Documentation
+docs/build/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Environment files (project-wide)
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Dependencies (covered by sub-gitignores but added for safety)
+node_modules/
+__pycache__/
+*.pyc
+
+# Build artifacts (covered by sub-gitignores but added for safety)
+dist/
+build/
+staticfiles/
+
+# Local configuration files
+local_settings.py
+.env.production
+.env.development
+
+# Git-related
+.git/
+*.patch
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# Local development scripts
+scripts/local/
+run_local.sh
+start_dev.sh
